@@ -21,7 +21,7 @@ public class FizzBuzz {
     }
 
     public static String fizzbuzz(int number) {
-        
+        //returns FizzBuzz for all variations of 15, Fizz for 3, Buzz for 5, Number for everything else.
         if ( number % 15 == 0) {
             return "FizzBuzz";
         } else if ( number % 5 == 0) {
